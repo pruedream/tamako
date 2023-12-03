@@ -11,12 +11,23 @@ jobs:
   build-and-deploy:
     # 服务器环境：最新版 Ubuntu
     runs-on: ubuntu-latest
+
+
+    strategy:
+      matrix:
+        node-version: [18.18.0]
+        
     steps:
       # 拉取代码
       - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
+          
+      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
+        uses: actions/setup-node@v1 # 作用：安装nodejs
+        with:
+          node-version: ${{ matrix.node-version }} # 版本
 
       # 生成静态文件
       - name: Build
