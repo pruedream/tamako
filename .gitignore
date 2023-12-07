@@ -23,3 +23,7 @@ urls.txt
 
 # idea
 .idea
+LICENSE
+deploy.sh
+baiduPush.sh
+.gitignore
