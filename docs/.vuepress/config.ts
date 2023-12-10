@@ -40,7 +40,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           {
             text: '后端文章',
             items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+              { text: 'Java', link: '/pages/34b64b/' },
             ],
           },
           {
