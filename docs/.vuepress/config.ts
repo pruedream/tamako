@@ -21,11 +21,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "Tamako",
+      title: "tamako",
       description: 'Java后端博客',
     }
   },
-   base: '/Tamako/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
+   base: '/tamako/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
 
   // 主题配置
   themeConfig: {
@@ -36,13 +36,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '后端',
         link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
-          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {
-            text: '后端文章',
-            items: [
-              { text: 'Java', link: '/pages/34b64b/' },
-            ],
-          },
+         // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
+          {     text: 'JVM',link: '/pages/57e88c/'  },
           {
             text: '学习笔记',
             items: [
@@ -140,12 +135,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // pageStyle: 'line', // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
     bodyBgImg: [
-      'https://raw.githubusercontent.com/pruedream/PictureBed/main/image/20160221161347_ZAK3k.jpeg',
-      'https://raw.githubusercontent.com/pruedream/PictureBed/main/image/20200914083839_fjQUn.jpeg',
-      'https://raw.githubusercontent.com/pruedream/PictureBed/main/image/20200914083605_ntuhm.jpeg',
+      'https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/1p.jpeg',
+      'https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/v5ad6e39f2.jpg',
+      'https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/c876104653faba9cc8327f95f044a80bd2d32086.jpg',
+      'https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/avsas_i181026ws28f9ibejwge80a53f3qempk_0014.jpg',
+      'https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/1q.jpeg',
+      'https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/2w.jpeg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     bodyBgImgOpacity: 0.6, // body背景图透明度，选值 0.1~1.0, 默认0.5
-    bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
+    bodyBgImgInterval: 13, // body多张背景图时的切换间隔, 默认15，单位s
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
@@ -169,15 +167,15 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: 'xugaoyi', // 必需
-      link: 'https://github.com/xugaoyi', // 可选的
+      name: 'pruedream', // 必需
+      link: 'https://github.com/pruedream', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://jsd.cdn.zzko.cn/gh/xugaoyi/image_store/blog/20200103123203.jpg',
-      name: 'Evan Xu',
-      slogan: '前端界的小学生',
+      avatar: 'https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/3e.png',
+      name: 'tamako | 玉子',
+      slogan: '塔塔开，塔塔开，塔塔开',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -187,17 +185,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:894072666@qq.com',
+          link: 'mailto:203152807@qq.com',
         },
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/xugaoyi',
+          link: 'https://github.com/pruedream',
         },
         {
-          iconClass: 'icon-erji',
-          title: '听音乐',
-          link: 'https://music.163.com/#/playlist?id=755597173',
+          iconClass: 'icon-gitee',
+          title: 'Gitee',
+          link: 'https://gitee.com/orange-jia',
         },
       ],
     },
@@ -212,13 +210,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: 'xugaoyi',
-        link: 'https://github.com/xugaoyi'
+        name: 'pruedream',
+        link: 'https://github.com/pruedream'
       }
     },
 
     // 自定义hmtl(广告)模块
-    htmlModules
+    // htmlModules
   },
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
@@ -335,8 +333,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           clientID: 'a6e1355287947096b88b',
           clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
           repo: 'blog-gitalk-comment', // GitHub 仓库
-          owner: 'xugaoyi', // GitHub仓库所有者
-          admin: ['xugaoyi'], // 对仓库有写权限的人
+          owner: 'pruedream', // GitHub仓库所有者
+          admin: ['pruedream'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50

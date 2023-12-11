@@ -1,14 +1,14 @@
 ---
 title: JVM
-date: 2023-12-10 17:34:07
-permalink: /pages/34b64b/
+date: 2023-12-11 00:34:32
+permalink: /pages/57e88c/
 categories:
-  - 后端文章
+  - JVM
 tags:
   - 
 author: 
-  name: pruedream
-  link: https://github.com/pruedream
+  name: xugaoyi
+  link: https://github.com/xugaoyi
 ---
 # JVM
 
