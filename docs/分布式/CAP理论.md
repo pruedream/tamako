@@ -5,7 +5,7 @@ permalink: /pages/a17ebf/
 categories:
   - 分布式
 tags:
-  - 
+  - 分布式
 author: 
   name: xugaoyi
   link: https://github.com/xugaoyi
