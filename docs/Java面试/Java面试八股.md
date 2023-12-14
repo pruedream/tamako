@@ -10,13 +10,16 @@ author:
   name: pruedream
   link: https://github.com/pruedream
 ---
-## 面试八股
+
+# 面试八股
 
 总结面试的所有八股点，并整理相关的资源、自己的相关博客，以便以后得复习回顾。
 
 -[x] dsf
-- [ ] 
-- [ ] 
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
 
 - [ ] 
 
