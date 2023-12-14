@@ -4,7 +4,7 @@ heroText: tamako's blog
 tagline: 什么都无法舍弃的人，什么都无法改变
 title: index
 date: 2023-12-01 22:17:47
-permalink: /pages/c634ca/
+permalink:  
 categories: 
   - Java核心技术
 tags: 

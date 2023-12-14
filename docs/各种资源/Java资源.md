@@ -1,3 +1,15 @@
+---
+title: Java资源
+date: 2023-12-13 18:45:34
+permalink: /pages/009be0/
+categories:
+  - 各种资源
+tags:
+  - 
+author: 
+  name: pruedream
+  link: https://github.com/pruedream
+---
 
 # Java资源
 记录Javak开发的相关资源
