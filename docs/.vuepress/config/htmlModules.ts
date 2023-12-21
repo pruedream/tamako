@@ -30,7 +30,7 @@ const htmlModule: VdoingThemeConfig['htmlModules'] = {
       margin: 0 0 8px 0;
     ">交个朋友</p>
     <img src="https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/C99B9EC26ECA9D94FF1BAE896CE30CBA.jpg"  style="width:100%;" />
-     加作者微信一起塔塔开，一起成长！！！
+     加作者微信（备注：博客）一起塔塔开，一起成长！！！
     </div>`,
   // `<!-- 纵向自适应 -->
   // <ins class="adsbygoogle"
