@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[68],{394:function(t,n,s){"use strict";s.r(n);var e=s(4),o=Object(e.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[this._v("试想一下，今年70，躺在床上，回忆年轻时的自己，是否会后悔？？？\n什么都舍弃不了的人，什么都改变不了。")])])}),[],!1,null,null,null);n.default=o.exports}}]);
