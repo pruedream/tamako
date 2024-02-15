@@ -1,3 +1,15 @@
+---
+title: Java核心类库
+date: 2024-02-15 13:26:02
+permalink: /pages/398253/
+categories:
+  - JVM
+tags:
+  - 
+author: 
+  name: pruedream
+  link: https://github.com/pruedream
+---
 # Java核心类库
 
  Java是一种面向对象的编程语言，它的核心类库是一组预定义的类和接口，这些类和接口提供了许多常用的功能和工具，方便开发者进行编程。那么这些核心类库是放在哪个文件中呢？
