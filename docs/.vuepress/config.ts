@@ -44,7 +44,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '开源',
-        link: '/ui/',
+       
         items: [
           { text: '个人开源项目', link: 'https://gitee.com/OS-Zero/deliver' },
           { text: '开源官网', link: 'https://oszero.cn/' },
@@ -52,7 +52,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
       {
         text: '技术',
-        link: '/technology/',
+        
         items: [
           { text: '技术文档', link: ' ' },
           { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
@@ -60,18 +60,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
         ],
       },
-      {
-        text: '更多',
-        link: '/more/',
-        items: [
-          { text: '面试', link: '/pages/a17ebf/' },
-          { text: '收藏夹'}
-        ],
-      },
-      { text: '关于', link: '/about/' },
+       
+     
       {
         text: '收藏',
-        link: '/pages/beb6c0bd8a66cea6/',
+      
         items: [
           { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
           { text: '资源', link: '/pages/eee83a9211a70f9d/' },
