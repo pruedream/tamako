@@ -43,7 +43,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '开源',
+        text: '开源经历',
        
         items: [
           { text: '个人开源项目', link: 'https://gitee.com/OS-Zero/deliver' },
@@ -51,13 +51,11 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '技术',
+        text: '美好生活',
         
         items: [
-          { text: '技术文档', link: ' ' },
-          { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-          { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
-          { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+          { text: 'B站主页', link: 'https://space.bilibili.com/1464335947?spm_id_from=333.976.0.0' },
+        
         ],
       },
        
@@ -66,8 +64,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '收藏',
       
         items: [
-          { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-          { text: '资源', link: '/pages/eee83a9211a70f9d/' },
+          { text: '网站', link: '/pages/327cef/' },
+          { text: '资源', link: '/pages/1ef958/' },
         ],
       },
       {
