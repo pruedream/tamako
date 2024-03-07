@@ -37,41 +37,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {     text: 'JVM',link: '/pages/57e88c/'  },
-          {
-            text: '学习笔记',
-            items: [
-              { text: '《JavaScript教程》', link: '/note/javascript/' },
-              { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
-              {
-                text: '《TypeScript 从零实现 axios》',
-                link: '/note/typescript-axios/',
-              },
-              {
-                text: '《Git》',
-                link: '/note/git/',
-              },
-              {
-                text: 'TypeScript',
-                link: '/pages/51afd6/',
-              },
-              {
-                text: 'JS设计模式总结',
-                link: '/pages/4643cd/',
-              },
-            ],
-          },
+             { text: 'Mysql', link: '/mysql/' },
+              { text: 'Redis', link: '/redis/' },
+              { text: 'JVM', link: '/jvm/' },
         ],
       },
       {
-        text: '面试',
+        text: '开源',
         link: '/ui/',
         items: [
-          { text: 'HTML', link: '/pages/265261/' },
-          { text: 'CSS', link: '/pages/0ac814/' },
+          { text: '个人开源项目', link: 'https://gitee.com/OS-Zero/deliver' },
+          { text: '开源官网', link: 'https://oszero.cn/' },
         ],
       },
       {
