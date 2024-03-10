@@ -55,7 +55,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         
         items: [
           { text: 'B站主页', link: 'https://space.bilibili.com/1464335947?spm_id_from=333.976.0.0' },
-        
+          { text: '摄影', link: '/pages/c4c47c/' },
+         
         ],
       },
        
