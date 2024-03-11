@@ -139,7 +139,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     blogger: {
       avatar: 'https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/3e.png',
       name: 'tamako | 玉子',
-      slogan: '塔塔开，塔塔开，塔塔开',
+      slogan: '胜人者有力，自胜者强',
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
