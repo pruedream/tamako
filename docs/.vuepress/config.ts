@@ -137,7 +137,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/pruedream/PictureBed@main/image/3e.png',
+      avatar: 'https://raw.githubusercontent.com/pruedream/PictureBed/main/image/Snipaste_2024-02-10_00-35-26.png',
       name: 'tamako | 玉子',
       slogan: '胜人者有力，自胜者强',
     },
