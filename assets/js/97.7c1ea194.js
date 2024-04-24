@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[97],{363:function(t,s,n){"use strict";n.r(s);var e=n(4),i=Object(e.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[this._v("理论知识和实操实践")]),this._v(" "),t("p",[this._v("学习了解必要的理论知识，在实操经验中体现并完善改进。")])])}),[],!1,null,null,null);s.default=i.exports}}]);
