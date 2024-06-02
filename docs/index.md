@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: tamako's blog
-tagline: 什么都无法舍弃的人，什么都无法改变
+tagline: 拥抱变化 机会就在变化之中
 title: index
 date: 2023-12-01 22:17:47
 permalink:  
