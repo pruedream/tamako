@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[97],{372:function(t,n,s){"use strict";s.r(n);var e=s(4),o=Object(e.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[this._v("会让你做人做事失败的，就在这几个里面骄傲，自傲，懒惰，胆怯 。时刻要牢记，时刻鞭策自己。")])])}),[],!1,null,null,null);n.default=o.exports}}]);
